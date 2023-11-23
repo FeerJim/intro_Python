@@ -1,0 +1,26 @@
+Ejercicio 1.
+
+for i in range(52):
+    if i%2 != 0 and i%10 != 1:
+        print(i, end=' ')
+print('')
+
+
+Ejercicio 2.
+def productos(list):
+    print("{:3} {:15} {:8} {:>5}".format('ID','Producto','Cantidad','Valor'))
+    print('{:->35}'.format(''))
+    total_sin_iva = 0
+    for i in range(len(list)):
+        total_sin_iva += list[i][2]*lista[i][3]
+        print("{:03d} {:15} {:8d} {:5.2f}".format(list[i][0],list[i][1],list[i][2],list[i][2]*list[i][3]))
+    iva = total_sin_iva*0.12
+    total_con_iva = total_sin_iva*1.12
+    print('{:->35}'.format(''))
+    print('{:19} {:8d} {:5.2f}'.format('Total sin iva:',sum(list[i][2] for i in range(len(list))),total_sin_iva))
+    print('{:28} {:5.2f}'.format('iva: ',iva))
+    print('{:->35}'.format(''))
+    print('{:28} {:5.2f}'.format('Total con iva: ',total_con_iva))
+
+lista = [[1, 'Atun', 3, 4], [2, 'Fideo', 5, 8],[3, 'Leche', 7, 2]]
+productos(lista)
