@@ -1,11 +1,21 @@
-Producto,Volumen,Peso
-Colchón tipo 1,10,5.0
-Colchón tipo 2,8,4.0
-Almohada tipo 1,2,1.0
-Mueble tipo 1,15,10.0
-Almohada tipo 2,1,0.5
-Colchón tipo 3,12,6.0
-Sofá tipo 1,20,15.0
-Mueble tipo 2,18,12.0
-Sofá tipo 2,25,20.0
-Almohada tipo 3,3,1.5
+Producto,Tipo,Volumen,Peso
+Colchón,1,10,5.0
+Colchón,2,8,4.0
+Almohada,1,2,1.0
+Mueble,1,15,10.0
+Almohada,2,1,0.5
+Colchón,3,12,6.0
+Sofá,1,20,15.0
+Mueble,2,18,12.0
+Sofá,2,25,20.0
+Almohada,3,3,1.5
+Colchón,1,10,5.0
+Colchón,2,8,4.0
+Almohada,1,2,1.0
+Mueble,1,15,10.0
+Almohada,2,1,0.5
+Colchón,3,12,6.0
+Sofá,1,20,15.0
+Mueble,2,18,12.0
+Sofá,2,25,20.0
+Almohada,3,3,1.5
